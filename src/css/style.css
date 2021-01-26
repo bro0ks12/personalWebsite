@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(7, 7, 7);
+  width: auto;
+}
+
+#header h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  color: white;
+  position: relative;
+  margin-top: 19%;
+  text-align: center;
+  vertical-align: baseline;
+  cursor: default;
+}
+
+#header hr {
+  margin-top: -1%;
+  width: 20%;
+}
+
+#header nav {
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}

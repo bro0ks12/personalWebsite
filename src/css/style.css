@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(7, 7, 7);
+  background-color: rgb(9, 9, 9);
   width: auto;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 #header nav {
-  font-size: 23px;
+  font-size: 22px;
   text-decoration: none;
   margin-top: 1%;
   text-align: center;

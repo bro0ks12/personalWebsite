@@ -5,6 +5,18 @@ body{
   background-size: 100% 100%;
 }
 
+@font-face {
+  font-family: 'BlackOpsOne-Regular';
+    src: url('../fonts/BlackOpsOne-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BlackOpsOne-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/BlackOpsOne-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/BlackOpsOne-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+        url('../fonts/BlackOpsOne-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/BlackOpsOne-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
 #header h1 {
   position: absolute;
   margin: 0;
@@ -15,8 +27,8 @@ body{
   left: 50%;
   -webkit-transform: translate3d(-50%, -50%,0);
   transform: translate(-50%, -50%,0);
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 5em;
+  font-family: "BlackOpsOne-Regular";
+  font-size: 6em;
   cursor: default;
   letter-spacing: 0.1em;
 }

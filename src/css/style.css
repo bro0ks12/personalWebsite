@@ -70,6 +70,7 @@ body{
   bottom: 0;
   width: 100%;
   color: rgba(255, 255, 255, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-size: 15px;
   cursor: default;

@@ -1,8 +1,8 @@
-body{
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 @font-face {
@@ -22,6 +22,7 @@ body{
   margin: 0;
   padding: 0;
   color: #f9f1e9;
+  text-shadow: 4px 4px #000000;
   text-align: center;
   top: 43%;
   left: 50%;
@@ -52,12 +53,12 @@ body{
   position: absolute;
   margin: 0;
   padding: 0;
-  text-align: center;
   top: 51.9%;
   left: 50.3%;
   -webkit-transform: translate3d(-50%, -50%,0);
   transform: translate(-50%, -50%,0);
   letter-spacing: 0.4em;
+  text-shadow: 2px 2px #000000;
 }
 
 #footer:hover {

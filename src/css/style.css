@@ -1,8 +1,8 @@
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 100%;
+body {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 @font-face {
